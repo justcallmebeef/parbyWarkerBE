@@ -40,6 +40,15 @@ app.put('/:id', (req, res, next) => {
     res.send({ glasses })
 })
 
+app.delete('/:id', (req, res) => {
+    let id = req.params.id 
+    let filteredGlasses = glasses.filter(object => {
+        return object.id != id 
+    })
+    glasses = filteredGlasses 
+    res.send({ glasses })
+})
+
 app.use(notFound)
 app.use(errorHandler)
 
