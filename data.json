@@ -1,5 +1,6 @@
 [{
     "id" : 1, 
+    "image": "TortoiseFrames.jpg",
     "name": "Turtoise Frame", 
     "code": "PW1689", 
     "price": 99.00, 
@@ -7,6 +8,7 @@
     "last_modified": 1538359384 
 }, {
     "id": 2, 
+    "image": "AviatorSunglasses.jpg", 
     "name": "Aviator Sunglasses", 
     "code": "PW134E", 
     "price": 74.00, 
@@ -14,6 +16,7 @@
     "last_modified": 153316800
 }, {
     "id": 3, 
+    "image": "IgneousMatte.jpg", 
     "name": "Igneous Matte", 
     "code": "PW001Z", 
     "price": 64.00, 
